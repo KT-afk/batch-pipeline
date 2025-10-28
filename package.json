@@ -1,0 +1,24 @@
+{
+  "name": "batch-pipeline",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.9.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@aws-sdk/client-sts": "^3.918.0",
+    "aws-sdk": "^2.1692.0",
+    "dotenv": "^17.2.3",
+    "node-cron": "^4.2.1"
+  }
+}
