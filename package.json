@@ -19,6 +19,9 @@
     "@aws-sdk/client-sts": "^3.918.0",
     "aws-sdk": "^2.1692.0",
     "dotenv": "^17.2.3",
-    "node-cron": "^4.2.1"
+    "node-cron": "^4.2.1",
+    "sequelize": "^6.37.7",
+    "sequelize-typescript": "^2.1.6",
+    "uuid": "^13.0.0"
   }
 }
